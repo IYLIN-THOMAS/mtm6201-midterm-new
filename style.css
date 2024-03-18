@@ -1,0 +1,111 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.backspace{
+ position:relative;
+ align-items:left;
+ top:20px;
+}
+
+.wrapper{
+    position: relative;
+    width: 400px;
+    height: 500px;
+    background: #fff;
+    color: #000;
+    border-radius: 20px;
+    padding:40px;
+}
+
+.form-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:100%;
+}
+
+h2{
+    font-size: 30px;
+    color: #000;
+    text-align: left;
+}
+
+p{
+padding: 2px;
+text-align:start;
+opacity:50%;
+}
+
+.input-group{
+    position: relative;
+    margin: 30px 0;
+    border-bottom: 2px solid #000;
+}
+
+.input-group label{
+    position: absolute;
+    top:50%;
+    left:5px;
+    transform: translateY(-5o%);
+    font-size 16px;
+    color: #000;
+}
+
+.input-group input{
+    width: 320px;
+    height: 40px;
+    font-size: 16px;
+    color: #000;
+    padding:  0 5px;
+    background: transparent;
+    border: none;
+}
+
+.remember{
+    margin: 15px 5px 15px 5px;
+}
+
+.remember label{
+    color: #000;
+    font-size: 14px;
+}
+
+.remember label input{
+    accent-color: #000;
+    border-radius:110px;
+}
+
+.forgot-password {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 14px;
+    color: #39add1;
+    text-decoration: none;
+    border-bottom: 1px dotted;
+  }
+
+button{
+    position: relative;
+    top: 30px;
+    left:20px;
+    width:90%;
+    height: 56px;
+    background: rgb(63, 86, 233);
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+.heading{
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
